@@ -1,0 +1,305 @@
+body{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background-color: #bbff00;
+}
+
+.resize {
+width : 100%;
+}
+
+@media screen and (min-width: 437px) and (max-width: 770px) {
+body {
+	margin:0;
+	background-color: red;
+}
+}
+
+@media screen and (max-width: 437px) {
+body {
+	margin:0;
+	background-color: blue;
+}
+}
+
+header,
+article{
+	background-color: white;
+}
+/*header*/
+
+header{
+	margin: 0;
+}
+
+#headerlogo2{
+	width: 182px;
+ 	height: 90px;
+	position:absolute;
+  top:5px;
+  right:10px;
+}
+
+#menun{
+	padding-top: 7px;
+	display: none;
+}
+
+.header-nav ul{
+	margin: 0;
+	padding: 0;
+	height: 100px;
+	border-bottom:black 2px solid;
+}
+
+.header-nav li{
+	list-style: none;
+	float: left;
+	margin-right: 5px;
+}
+
+.header-text{
+	display: block;
+	color: black;
+	text-decoration: none;
+	font-family: "Arial BoldMT";
+	font-size: 21pt;
+	margin: 35px 0px 0px 30px;
+}
+
+#Login{
+	background-color: #FD0500;
+}
+
+@media screen and (min-width: 437px) and (max-width: 770px) {
+	.header-text{
+		font-size: 16pt;
+		margin: 40px 0px 0px 10px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+.nullphoto {
+	display: none;
+}
+}
+@media screen and (max-width: 437px) {
+.header-text,
+.nullphoto {
+	display: none;
+}
+#menun{
+	display: block;
+	position:absolute;
+  top:0;
+  right:20px;
+}
+
+}
+
+/*artical*/
+
+article{
+	height: 900px;
+}
+
+article img{
+	width: 1032px;
+	margin-top: 10px;
+}
+
+@media screen and (max-width: 437px) {
+	article{
+		height: 1200px;
+	}
+}
+/*main*/
+
+.main ul{
+	margin: 0;
+	padding: 0;
+	height: 370px;
+}
+
+.main li{
+	width: 28%;
+	height: 370px;
+	list-style: none;
+	float: left;
+	display: block;
+	margin: 10px 0px 0px 30px;
+	border: black 1.5px solid;
+	text-align: center;
+}
+
+.main li a img{
+	margin: 0px;
+	width: 100%;
+	height: 300px;
+}
+
+.main li p{
+	margin: 0px;
+}
+
+.main-text{
+	color: red;
+	font-size: 24px;
+}
+
+.main-text a{
+	font-size: 15px;
+	text-decoration: none;
+	color: #00aaff;
+}
+
+@media screen and (min-width: 437px) and (max-width: 770px) {
+	.main li a img{
+		height: 260px;
+	}
+
+	.main li{
+		height: 370px;
+		margin-left: 4%;
+	}
+
+}
+
+@media screen and (max-width: 437px) {
+
+	.main li a img{
+		width: 80%;
+		height: 80%;
+	}
+
+	.main li{
+		width: 80%;
+		height: 370px;
+		margin-left: 30px;
+		border: black 1.5px solid;
+	}
+
+}
+
+
+/*sale*/
+
+.sale ul,
+.saleItem ul{
+	margin: 0;
+	padding: 0;
+	height: 370px;
+}
+
+.sale li{
+	width: 47%;
+	height: 370px;
+	list-style: none;
+	float: left;
+	display: block;
+	margin: 25px 0px 0px 20px;
+	border: black 1.5px solid;
+}
+
+.sale li p{
+	margin: 5px 0px 0px 0px;
+	padding-left: 10px;
+	border-bottom: black 1.5px solid;
+}
+
+.saleItem ul li{
+	width: 49%;
+	height: 345px;
+	list-style: none;
+	float: left;
+	display: block;
+	margin: 0px;
+	border: none;
+	text-align: center;
+}
+
+#firstarea{
+	border-right: black 1.5px solid;
+}
+
+.saleItem li a img{
+	margin: 0px;
+	width: 100%;
+	height: 260px;
+}
+
+.saleItem li p{
+	margin: 0px;
+	border: none;
+}
+
+@media screen and (min-width: 437px) and (max-width: 770px) {
+	.sale li{
+		margin: 25px 0px 0px 5px;
+		height: 400px;
+	}
+	.saleItem ul li{
+		height: 375px;
+	}
+}
+
+@media screen and (max-width: 437px) {
+.sale{
+	display: none;
+}
+}
+
+/*footer*/
+footer{
+	margin: 0;
+	width: 100%;
+	height: 100px;
+	padding-bottom: 5px;
+	background-color: black;
+
+}
+
+footer img{
+	width: 100px;
+	height: 100px;
+}
+.firstfooterlogo{
+	margin-left: 25%;
+}
+.footerlogo{
+	margin-left: 8%;
+}
+
+.clear:after {
+	content:"";
+	display: block;
+	clear: both;
+}
+
+@media screen and (min-width: 400px) and (max-width: 770px) {
+	.firstfooterlogo{
+		margin-left: 22%;
+	}
+	.footerlogo{
+		margin-left: 8%;
+	}
+}
+
+
+@media screen and (max-width: 437px) {
+	.firstfooterlogo{
+		margin-top: 4%;
+		margin-left: 12%;
+	}
+	.footerlogo{
+		margin-top: 4%;
+		margin-left: 8%;
+	}
+
+	footer img{
+		width: 70px;
+		height: 70px;
+	}
+}

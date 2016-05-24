@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta http-equiv="x-ua-compatible" content="text/html"; charset="utf-8">
+  <title>hw6</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+  <meta name="keywords" content="yoyoe3/homework-week6.com/">
+</head>
+
+<body>
+<header>
+  <nav class="header-nav">
+    <ul class="clear">
+      <li><img src="img/pagelogo.png"/></li>
+      <li><a href="#" class="header-text displaynonn">Home</a></li>
+      <li><a href="#" class="header-text displaynonn">Special</a></li>
+      <li><a href="#" class="header-text displaynonn">Shopping Cart</a></li>
+      <li><a href="#" class="header-text displaynonn" id="Login">Member Login</a></li>
+      <li><a href="#"><img src="img/menu.jpg" id="menun"></a></li>
+      <li><a href="#"><img src="img/headerlogo2.jpg" id="headerlogo2" class="nullphoto"></a></li>
+    </ul>
+  </nav>
+
+</header>
+
+<article>
+  <a href="#"><img src="img/logo.jpg" class="resize"/></a>
+  <div class="main">
+    <ul class="clear">
+      <li>
+        <a href="#"><img src="img/1.jpg"/></a>
+        <p>(女) MIZUNO SYNCHRO MX慢跑鞋- 路跑 健身 半馬 全馬 螢光綠黑</p>
+        <p class="main-text">$2331  <a href="#">搶購</a></p>
+      </li>
+      <li>
+        <a href="#"><img src="img/2.jpg"/></a>
+        <p>(男) MIZUNO SYNCHRO MX慢跑鞋- 路跑 健身 美津濃 黑白</p>
+        <p class="main-text">$2331  <a href="#">搶購</a></p>
+      </li>
+      <li>
+        <a href="#"><img src="img/3.jpg"/></a>
+        <p>(女) NIKE LUNARTEMPO 2慢跑鞋- 路跑 健身 半馬 全馬 黑白</p>
+        <p class="main-text">$3308  <a href="#">搶購</a></p>
+      </li>
+    </ul>
+  </div>
+
+  <div class="sale">
+    <ul class="clear">
+      <li>
+        <p><strong> ADIDAS愛迪達_女</strong></p>
+        <div class="saleItem">
+          <ul class="clear">
+            <li id="firstarea">
+              <a href="#"><img src="img/4.jpg"/></a>
+              <p>(女)ADIDAS BREVARD W 慢跑鞋 桃紅/黑-M21579</p>
+              <p class="main-text">$990  <a href="#">搶購</a></p>
+            </li>
+            <li>
+              <a href="#"><img src="img/6.jpg"/></a>
+              <p>ADIDAS (男女) 愛迪達 ZX 700 休閒鞋 紅-S79188</p>
+              <p class="main-text">$3190  <a href="#">搶購</a></p>
+            </li>
+          </ul>
+        </div>
+      </li>
+
+      <li>
+        <p><strong> ADIDAS愛迪達_男</strong></p>
+        <div class="saleItem">
+          <ul class="clear">
+            <li id="firstarea">
+              <a href="#"><img src="img/8.jpg"/></a>
+              <p>ADIDAS (男) 愛迪達 ISOLATION 2 LOW 籃球鞋 黑/白 -C75918</p>
+              <p class="main-text">$1690  <a href="#">搶購</a></p>
+            </li>
+            <li>
+              <a href="#"><img src="img/7.jpg"/></a>
+              <p>ADIDAS 男女 ADILETTE 愛迪達 運動拖鞋 拖鞋 -280647</p>
+              <p class="main-text">$1190  <a href="#">搶購</a></p>
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+</article>
+
+<footer>
+  <a href="#"><img src="img/facebook-logo.png" class="firstfooterlogo"/></a>
+  <a href="#"><img src="img/square-twitter-logo.png" class="footerlogo"/></a>
+  <a href="#"><img src="img/google-logo.png" class="footerlogo"/></a>
+</footer>
+
+</body>
+</html>
